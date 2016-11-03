@@ -1,0 +1,123 @@
+/**CHANGING THE POSITION OF 6 SHIPS (STILL IN THE SHIPPING AREA)**/
+
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+567891234
+Atlantica
+51.95 -5.85
+180
+25
+Adding ship...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+678912345
+Stargate
+51.9 -5.8
+90
+35
+Adding ship...
+Enter q to quit or i to insert info of a ship
+789123456
+Wrong, please follow the instructions correctly this time...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+789123456
+Homer
+51.85 -5.75
+0
+10
+Adding ship...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+891234567
+Marge
+51.8 -5.7
+270
+60
+Adding ship...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+912345678
+Bart
+51.75 -5.65
+180
+10
+Adding ship...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+987654321
+Maggie
+51.7 -5.6
+90
+20
+Adding ship...
+Enter q to quit or i to insert info of a ship
+q
+
+/**CHANGING THE POSITIONS OF 4 SHIPS (REMOVING THEM FROM AREA)**/
+
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+123456789
+Lady Mary
+55.4 -6.5
+180
+10
+Ship not in area, removing...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+234567891
+RMS Titanic
+54.4 -6.45
+90
+20
+Ship not in area, removing...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+345678912
+Casablanca
+54.333 -6.4
+0
+0
+Ship not in area, removing...
+Enter q to quit or i to insert info of a ship
+i
+Enter the ship's data in the format:
+MMSI, name, position(lat<space>long), direction and speed
+After each piece of data specified above press enter
+456789123
+HMS Sydney
+48.77 -6.35
+270
+50
+Ship not in area, removing...
+Enter q to quit or i to insert info of a ship
+q
+

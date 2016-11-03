@@ -1,0 +1,55 @@
+123456789 data has been entered at 15:58:0.29/3/2012 by Java
+234567891 data has been entered at 15:59:7.29/3/2012 by Java
+345678912 data has been entered at 15:59:36.29/3/2012 by Java
+456789123 data has been entered at 16:0:18.29/3/2012 by Java
+567891234 data has been entered at 16:1:40.29/3/2012 by Java
+678912345 data has been entered at 16:2:15.29/3/2012 by Java
+789123456 data has been entered at 16:2:49.29/3/2012 by Java
+891234567 data has been entered at 16:3:30.29/3/2012 by Java
+912345678 data has been entered at 16:3:57.29/3/2012 by Java
+987654321 data has been entered at 16:4:34.29/3/2012 by Java
+876543219 data has been entered at 16:6:6.29/3/2012 by Java
+765432198 data has been entered at 16:6:39.29/3/2012 by Java
+654321987 data has been entered at 16:7:5.29/3/2012 by Java
+543219876 data has been entered at 16:7:34.29/3/2012 by Java
+432198765 data has been entered at 16:8:34.29/3/2012 by Java
+321987654 data has been entered at 16:9:37.29/3/2012 by Java
+219876543 data has been entered at 16:10:5.29/3/2012 by Java
+198765432 data has been entered at 16:10:34.29/3/2012 by Java
+246810121 data has been entered at 16:10:54.29/3/2012 by Java
+567891234 data has been entered at 16:37:32.29/3/2012 by Java
+678912345 data has been entered at 16:50:41.29/3/2012 by Java
+789123456 data has been entered at 16:51:17.29/3/2012 by Java
+891234567 data has been entered at 16:52:35.29/3/2012 by Java
+912345678 data has been entered at 16:53:4.29/3/2012 by Java
+987654321 data has been entered at 16:53:31.29/3/2012 by Java
+123456789 has been deleted/not been entered because it is not in the shipping area at 16:58:23.29/3/2012
+234567891 has been deleted/not been entered because it is not in the shipping area at 16:58:50.29/3/2012
+345678912 has been deleted/not been entered because it is not in the shipping area at 16:59:10.29/3/2012
+456789123 has been deleted/not been entered because it is not in the shipping area at 16:59:41.29/3/2012
+987654321 was read by the Ship Finder program in C
+246810121 was read by the Ship Finder program in C
+567891234 was read by the Ship Finder program in C
+654321987 was read by the Ship Finder program in C
+789123456 was read by the Ship Finder program in C
+912345678 was read by the Ship Finder program in C
+246810121 was read by the Ship Finder program in C
+567891234 was read by the ship proximity indicator program in C++
+654321987 was read by the ship proximity indicator program in C++
+678912345 was read by the ship proximity indicator program in C++
+765432198 was read by the ship proximity indicator program in C++
+876543219 was read by the ship proximity indicator program in C++
+678912345 was read by the ship proximity indicator program in C++
+789123456 was read by the ship proximity indicator program in C++
+891234567 was read by the ship proximity indicator program in C++
+912345678 was read by the ship proximity indicator program in C++
+987654321 was read by the ship proximity indicator program in C++
+246810121 was read by the ship proximity indicator program in C++
+567891234 was read by the ship proximity indicator program in C++
+654321987 was read by the ship proximity indicator program in C++
+678912345 was read by the ship proximity indicator program in C++
+765432198 was read by the ship proximity indicator program in C++
+876543219 was read by the ship proximity indicator program in C++
+567891234 was read by the ship proximity indicator program in C++
+654321987 was read by the ship proximity indicator program in C++
+678912345 was read by the ship proximity indicator program in C++

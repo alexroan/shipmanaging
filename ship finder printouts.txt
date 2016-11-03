@@ -1,0 +1,124 @@
+/**SHIP FINDER COMPILING**/
+
+"/usr/bin/make" -f nbproject/Makefile-Debug.mk QMAKE= SUBPROJECTS= .build-conf
+make[1]: Entering directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ShipFinder'
+"/usr/bin/make"  -f nbproject/Makefile-Debug.mk dist/Debug/Cygwin_4.x-Windows/shipfinder.exe
+make[2]: Entering directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ShipFinder'
+make[2]: `dist/Debug/Cygwin_4.x-Windows/shipfinder.exe' is up to date.
+make[2]: Leaving directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ShipFinder'
+make[1]: Leaving directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ShipFinder'
+
+
+BUILD SUCCESSFUL (total time: 546ms)
+
+/**SHIP FINDER RUNNING**/
+
+To find a ship enter 'f', to quit enter 'q'
+f
+To find a ship using its MMSI number enter 'm'
+To find a ship using its name enter 'n'
+m
+Please enter the MMSI number of the ship you'd like info on
+987654321
+INFORMATION FOR SHIP 987654321:
+
+987654321
+Maggie
+51.7 -5.6
+90
+20
+16:53:31.29/3/2012
+
+To find a ship enter 'f', to quit enter 'q'
+f
+To find a ship using its MMSI number enter 'm'
+To find a ship using its name enter 'n'
+n
+Please enter the name of the ship you'd like info on
+Titan
+To find a ship enter 'f', to quit enter 'q'
+f
+To find a ship using its MMSI number enter 'm'
+To find a ship using its name enter 'n'
+n
+Please enter the name of the ship you'd like info on
+A
+INFORMATION FOR SHIP 246810121:
+
+246810121
+Ashley
+52.4 -5.6
+0
+0
+16:10:54.29/3/2012
+
+INFORMATION FOR SHIP 567891234:
+
+567891234
+Atlantica
+51.95 -5.85
+180
+25
+16:37:32.29/3/2012
+
+INFORMATION FOR SHIP 654321987:
+
+654321987
+Alex
+52.1 -5.9
+180
+25
+16:7:5.29/3/2012
+
+To find a ship enter 'f', to quit enter 'q'
+f
+To find a ship using its MMSI number enter 'm'
+To find a ship using its name enter 'n'
+n
+Please enter the name of the ship you'd like info on
+Homer
+INFORMATION FOR SHIP 789123456:
+
+789123456
+Homer
+51.85 -5.75
+0
+10
+16:51:17.29/3/2012
+
+To find a ship enter 'f', to quit enter 'q'
+f
+To find a ship using its MMSI number enter 'm'
+To find a ship using its name enter 'n'
+n
+Please enter the name of the ship you'd like info on
+B
+INFORMATION FOR SHIP 912345678:
+
+912345678
+Bart
+51.75 -5.65
+180
+10
+16:53:4.29/3/2012
+
+To find a ship enter 'f', to quit enter 'q'
+f
+To find a ship using its MMSI number enter 'm'
+To find a ship using its name enter 'n'
+m
+Please enter the MMSI number of the ship you'd like info on
+246810121
+INFORMATION FOR SHIP 246810121:
+
+246810121
+Ashley
+52.4 -5.6
+0
+0
+16:10:54.29/3/2012
+
+To find a ship enter 'f', to quit enter 'q'
+q
+Program closing
+RUN SUCCESSFUL (total time: 1m 50s)

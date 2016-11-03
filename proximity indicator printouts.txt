@@ -1,0 +1,220 @@
+/**PROXIMITY INDICATOR COMPILING**/
+
+"/usr/bin/make" -f nbproject/Makefile-Debug.mk QMAKE= SUBPROJECTS= .build-conf
+make[1]: Entering directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ProximityIndicator'
+"/usr/bin/make"  -f nbproject/Makefile-Debug.mk dist/Debug/Cygwin_4.x-Windows/proximityindicator.exe
+make[2]: Entering directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ProximityIndicator'
+mkdir -p build/Debug/Cygwin_4.x-Windows
+rm -f build/Debug/Cygwin_4.x-Windows/ship_proximity.o.d
+g++    -c -g -MMD -MP -MF build/Debug/Cygwin_4.x-Windows/ship_proximity.o.d -o build/Debug/Cygwin_4.x-Windows/ship_proximity.o ship_proximity.cpp
+mkdir -p dist/Debug/Cygwin_4.x-Windows
+g++     -o dist/Debug/Cygwin_4.x-Windows/proximityindicator build/Debug/Cygwin_4.x-Windows/main.o  build/Debug/Cygwin_4.x-Windows/node.o  build/Debug/Cygwin_4.x-Windows/ship_proximity.o  
+make[2]: Leaving directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ProximityIndicator'
+make[1]: Leaving directory `/cygdrive/c/Users/User/Documents/CompSci/C, C++ and Java/ProximityIndicator'
+
+
+BUILD SUCCESSFUL (total time: 1s)
+
+
+/**PROXIMITY INDICATOR RUNNING**/
+
+To find ships using position enter 'f', to quit enter 'q'
+f
+Finding Ships...
+Loading Ships...
+Enter: latitude<space>longitude in double form to 3 dp
+52 -6
+
+INFORMATION FOR SHIP: 567891234
+567891234
+Atlantica
+51.95 -5.85
+180
+25
+16:37:32.29/3/2012
+
+INFORMATION FOR SHIP: 654321987
+654321987
+Alex
+52.1 -5.9
+180
+25
+16:7:5.29/3/2012
+
+INFORMATION FOR SHIP: 678912345
+678912345
+Stargate
+51.9 -5.8
+90
+35
+16:50:41.29/3/2012
+
+INFORMATION FOR SHIP: 765432198
+765432198
+Grandpa
+52.05 -5.95
+270
+50
+16:6:39.29/3/2012
+
+INFORMATION FOR SHIP: 876543219
+876543219
+Lisa
+52 -6
+0
+0
+16:6:6.29/3/2012
+
+To find ships using position enter 'f', to quit enter 'q'
+f
+Finding Ships...
+Loading Ships...
+Enter: latitude<space>longitude in double form to 3 dp
+51.8 -5.7
+
+INFORMATION FOR SHIP: 678912345
+678912345
+Stargate
+51.9 -5.8
+90
+35
+16:50:41.29/3/2012
+
+INFORMATION FOR SHIP: 789123456
+789123456
+Homer
+51.85 -5.75
+0
+10
+16:51:17.29/3/2012
+
+INFORMATION FOR SHIP: 891234567
+891234567
+Marge
+51.8 -5.7
+270
+60
+16:52:35.29/3/2012
+
+INFORMATION FOR SHIP: 912345678
+912345678
+Bart
+51.75 -5.65
+180
+10
+16:53:4.29/3/2012
+
+INFORMATION FOR SHIP: 987654321
+987654321
+Maggie
+51.7 -5.6
+90
+20
+16:53:31.29/3/2012
+
+To find ships using position enter 'f', to quit enter 'q'
+f
+Finding Ships...
+Loading Ships...
+Enter: latitude<space>longitude in double form to 3 dp
+59.5 -4.999
+
+To find ships using position enter 'f', to quit enter 'q'
+f
+Finding Ships...
+Loading Ships...
+Enter: latitude<space>longitude in double form to 3 dp
+52.5 -5.5
+
+INFORMATION FOR SHIP: 246810121
+246810121
+Ashley
+52.4 -5.6
+0
+0
+16:10:54.29/3/2012
+
+To find ships using position enter 'f', to quit enter 'q'
+f
+Finding Ships...
+Loading Ships...
+Enter: latitude<space>longitude in double form to 3 dp
+52 -5.9
+
+INFORMATION FOR SHIP: 567891234
+567891234
+Atlantica
+51.95 -5.85
+180
+25
+16:37:32.29/3/2012
+
+INFORMATION FOR SHIP: 654321987
+654321987
+Alex
+52.1 -5.9
+180
+25
+16:7:5.29/3/2012
+
+INFORMATION FOR SHIP: 678912345
+678912345
+Stargate
+51.9 -5.8
+90
+35
+16:50:41.29/3/2012
+
+INFORMATION FOR SHIP: 765432198
+765432198
+Grandpa
+52.05 -5.95
+270
+50
+16:6:39.29/3/2012
+
+INFORMATION FOR SHIP: 876543219
+876543219
+Lisa
+52 -6
+0
+0
+16:6:6.29/3/2012
+
+To find ships using position enter 'f', to quit enter 'q'
+f
+Finding Ships...
+Loading Ships...
+Enter: latitude<space>longitude in double form to 3 dp
+52 -5.7
+
+INFORMATION FOR SHIP: 567891234
+567891234
+Atlantica
+51.95 -5.85
+180
+25
+16:37:32.29/3/2012
+
+INFORMATION FOR SHIP: 654321987
+654321987
+Alex
+52.1 -5.9
+180
+25
+16:7:5.29/3/2012
+
+INFORMATION FOR SHIP: 678912345
+678912345
+Stargate
+51.9 -5.8
+90
+35
+16:50:41.29/3/2012
+
+To find ships using position enter 'f', to quit enter 'q'
+f
+Finding Ships...
+Loading Ships...
+Enter: latitude<space>longitude in double form to 3 dp
+52.55 -6.2

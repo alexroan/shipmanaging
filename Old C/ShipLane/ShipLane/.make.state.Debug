@@ -1,0 +1,53 @@
+.MAKE_VERSION:	VERSION-1.0
+.BUILT_LAST_MAKE_RUN:
+.build-conf:
+	"make"  -f nbproject/Makefile-Debug.mk dist/Debug/GNU-Solaris-Sparc/shiplane
+.clean-conf:
+	rm -f -r build/Debug
+	rm -f dist/Debug/GNU-Solaris-Sparc/shiplane
+.BUILT_LAST_MAKE_RUN:
+.depcheck-impl:
+	echo "# This code depends on make tool being used" >.dep.inc
+	if [ -n "" ]; then \
+	    echo "DEPFILES=\$(wildcard \$(addsuffix .d, \${OBJECTFILES}))" >>.dep.inc; \
+	    echo "ifneq (\${DEPFILES},)" >>.dep.inc; \
+	    echo "include \${DEPFILES}" >>.dep.inc; \
+	    echo "endif" >>.dep.inc; \
+	else \
+	    echo ".KEEP_STATE:" >>.dep.inc; \
+	    echo ".KEEP_STATE_FILE:.make.state.\${CONF}" >>.dep.inc; \
+	fi
+build/Debug/GNU-Solaris-Sparc/file_handler.o:
+	mkdir -p build/Debug/GNU-Solaris-Sparc
+	rm -f build/Debug/GNU-Solaris-Sparc/file_handler.o.d
+	gcc   -c -g -I/dcs/dap/NAVIGATION -MMD -MP -MF build/Debug/GNU-Solaris-Sparc/file_handler.o.d -o build/Debug/GNU-Solaris-Sparc/file_handler.o file_handler.c
+build/Debug/GNU-Solaris-Sparc/linked_list.o:
+	mkdir -p build/Debug/GNU-Solaris-Sparc
+	rm -f build/Debug/GNU-Solaris-Sparc/linked_list.o.d
+	gcc   -c -g -I/dcs/dap/NAVIGATION -MMD -MP -MF build/Debug/GNU-Solaris-Sparc/linked_list.o.d -o build/Debug/GNU-Solaris-Sparc/linked_list.o linked_list.c
+build/Debug/GNU-Solaris-Sparc/main.o:
+	mkdir -p build/Debug/GNU-Solaris-Sparc
+	rm -f build/Debug/GNU-Solaris-Sparc/main.o.d
+	gcc   -c -g -I/dcs/dap/NAVIGATION -MMD -MP -MF build/Debug/GNU-Solaris-Sparc/main.o.d -o build/Debug/GNU-Solaris-Sparc/main.o main.c
+build/Debug/GNU-Solaris-Sparc/simulator.o:
+	mkdir -p build/Debug/GNU-Solaris-Sparc
+	rm -f build/Debug/GNU-Solaris-Sparc/simulator.o.d
+	gcc   -c -g -I/dcs/dap/NAVIGATION -MMD -MP -MF build/Debug/GNU-Solaris-Sparc/simulator.o.d -o build/Debug/GNU-Solaris-Sparc/simulator.o simulator.c
+build/Debug/OracleSolarisStudio-Solaris-Sparc/file_reader.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h file_reader.h linked_list.h main.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-Sparc
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-Sparc/file_reader.o file_reader.c
+build/Debug/OracleSolarisStudio-Solaris-Sparc/linked_list.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h /usr/include/string.h /usr/include/iso/string_iso.h linked_list.h navigation.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-Sparc
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-Sparc/linked_list.o linked_list.c
+build/Debug/OracleSolarisStudio-Solaris-Sparc/main.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h linked_list.h file_reader.h /usr/include/string.h /usr/include/iso/string_iso.h navigation.h main.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-Sparc
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-Sparc/main.o main.c
+build/Debug/OracleSolarisStudio-Solaris-Sparc/simulator.o:	/usr/include/stdio.h /usr/include/sys/feature_tests.h /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/iso/stdlib_c99.h /usr/include/string.h /usr/include/iso/string_iso.h 
+	mkdir -p build/Debug/OracleSolarisStudio-Solaris-Sparc
+	cc   -c -g -o build/Debug/OracleSolarisStudio-Solaris-Sparc/simulator.o simulator.c
+dist/Debug/GNU-Solaris-Sparc/shiplane:
+	mkdir -p dist/Debug/GNU-Solaris-Sparc
+	gcc    -o dist/Debug/GNU-Solaris-Sparc/shiplane build/Debug/GNU-Solaris-Sparc/file_handler.o  build/Debug/GNU-Solaris-Sparc/linked_list.o  build/Debug/GNU-Solaris-Sparc/simulator.o  build/Debug/GNU-Solaris-Sparc/main.o -lm /dcs/dap/NAVIGATION/libnavigation.a 
+dist/Debug/OracleSolarisStudio-Solaris-Sparc/shiplane:
+	mkdir -p dist/Debug/OracleSolarisStudio-Solaris-Sparc
+	cc    -o dist/Debug/OracleSolarisStudio-Solaris-Sparc/shiplane build/Debug/OracleSolarisStudio-Solaris-Sparc/file_reader.o  build/Debug/OracleSolarisStudio-Solaris-Sparc/linked_list.o  build/Debug/OracleSolarisStudio-Solaris-Sparc/simulator.o  build/Debug/OracleSolarisStudio-Solaris-Sparc/main.o  
